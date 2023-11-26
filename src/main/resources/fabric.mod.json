@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "mc122477fix-updated",
+  "version": "${version}",
+  "name": "Mc122477Fix-Updated",
+  "description": "A simple mod that fixes MC-122477, the random extra chat character on Unix-based systems",
+  "authors": [
+    "djoh"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/mc122477fix-updated",
+    "sources": "https://github.com/djohts/Mc122477Fix-Updated",
+    "issues": "https://github.com/djohts/Mc122477Fix-Updated/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/mc122477fix-updated/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.djoh.mc122477fix_updated.Mc122477Fix"
+    ]
+  },
+  "mixins": [
+    "mc122477fix-updated.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.24",
+    "fabric": "*",
+    "minecraft": ">=1.20.1"
+  }
+}
