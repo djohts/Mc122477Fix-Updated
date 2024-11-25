@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.djoh.mc122477fix_updated.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "MixinKeyboard",
+    "MixinRenderSystem"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
